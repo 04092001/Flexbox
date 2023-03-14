@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.boxes {
+  display: flex;
+  margin: 0 auto;
+}
+
+.box {
+  height: 100px;
+  aspect-ratio: 1 / 1;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
