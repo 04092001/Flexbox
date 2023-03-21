@@ -1,15 +1,27 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
-.boxes {
+.flex_container {
+  align-items: center;
   display: flex;
-  margin: 0 auto;
+  height: 300px;
+  justify-content: center;
+  background-color: lightgray;
 }
 
-.box {
+.flex_container > div {
+  background-color: cornflowerblue;
+  width: 100px;
   height: 100px;
-  aspect-ratio: 1 / 1;
+  text-align: center;
+  margin: 10px;
+  transition: 2s all ease 0s;
+}
+
+.flex_container > div:hover {
+  background-color: blue;
 }
 
 .red {
